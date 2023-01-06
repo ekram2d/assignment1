@@ -55,11 +55,12 @@
 }
 
 
-.div-desc{
+.div-desc {
     padding: 20px;
     width: 300px;
 }
-.desc-head{
+
+.desc-head {
     margin-bottom: 200rem;
 }
 
@@ -74,20 +75,55 @@
 
 /* my plan start  */
 
-.icon-container{
+.icon-container {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    /* gap: 30px; */
+    padding: 20px;
 
 }
-.my-plans{
+
+.my-plans {
     align-items: center;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
-.plan-head{
+
+.plan-head {
     margin-bottom: 5px;
 }
-img{
-    size: 5px;
+
+.icno-img {
+    margin: 4px;
+}
+
+.icon-head {
+    padding: 8px;
+}
+.div-gradiant{
+
+
+    height: 150px;
+    width: 800px;
+    background-image: url(../images/gradient3.png),url("../images/watch.png");
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 5px;
+    margin-bottom: 50px;
+}
+.grad-head-button{
+    padding: 30px;
+    width: 40%;
+}
+.grad-btn{
+    
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    color: tomato;
+    margin: 3px;
 }
