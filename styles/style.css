@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+}
+
+.head-img{
+    height: 1000px;
+    background-image: url("../images/banner/banner2.png");
+}
