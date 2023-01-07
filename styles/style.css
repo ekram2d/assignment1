@@ -170,8 +170,8 @@
     height: 250px;
     width: 80%;
     /* background-image: url(../images/gradient3.png), url("../images/watch.png"); */
-    background-image: linear-gradient(119deg,rgb(12 138 241 / 25%),rgb(248 234 232 / 0%)),url(../images/gradient1.png), url(../images/watch.png);
-    
+    background-image: linear-gradient(119deg, rgba(247, 43, 7, 50%), rgba(238, 214, 210, 10%)), url("../images/gradient2.png"), url("../images/watch.png");
+
     background-size: cover;
     margin: 0 auto;
     border: none;
