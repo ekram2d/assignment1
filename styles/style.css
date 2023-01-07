@@ -105,7 +105,7 @@
 .div-gradiant{
 
 
-    height: 150px;
+    height: 200px;
     width: 800px;
     background-image: url(../images/gradient3.png),url("../images/watch.png");
     margin: 0 auto;
@@ -113,10 +113,15 @@
     border-radius: 10px;
     box-shadow: 2px 3px 4px 5px;
     margin-bottom: 50px;
+
+    /* background: linear-gradient(to left,orange, rgb(212, 204, 189)); */
+    
+ 
 }
 .grad-head-button{
     padding: 30px;
     width: 40%;
+
 }
 .grad-btn{
     
@@ -125,5 +130,41 @@
     width: 80px;
     border-radius: 8px;
     color: tomato;
-    margin: 3px;
+    margin-top: 10px;
+}
+/* footer start */
+footer{
+  height: 400px;
+  width: 100%;
+    background-color: black;
+}
+.footer-contain{
+    padding: 100px;
+    
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* justify-content: space-around; */
+}
+.footer-head{
+    color: wheat;
+    margin-bottom: 4px;
+
+}
+.footer-p{
+
+    color: wheat;
+    margin-bottom: 7px;
+}
+.footer-img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.foot-input{
+    border: 2px solid white;
+    background: black;
+    height: 40px;
+    border-radius: 8px;
+    margin: 4px;
 }
